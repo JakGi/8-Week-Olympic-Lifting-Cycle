@@ -2,9 +2,10 @@ import React from "react";
 import Button from "@material-ui/core/Button";
 import Menu from "@material-ui/core/Menu";
 import MenuItem from "@material-ui/core/MenuItem";
-import { BrowserRouter as  Route, Switch, Link } from "react-router-dom";
+import { BrowserRouter as Route, Switch, Link } from "react-router-dom";
 import Week1 from "./Week1";
 import Week2 from "./Week2";
+import Week3 from "./Week3";
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -39,7 +40,9 @@ export default function SimpleMenu() {
         <Link to="/Week2">
           <MenuItem onClick={handleClose}>Week-2</MenuItem>
         </Link>
-
+        <Link to="/Week3">
+          <MenuItem onClick={handleClose}>Week-3</MenuItem>
+        </Link>
       </Menu>
 
       <Switch>
@@ -48,6 +51,9 @@ export default function SimpleMenu() {
         </Route>
         <Route path="/Week2">
           <Week2 />
+        </Route>
+        <Route path="/Week3">
+          <Week3 />
         </Route>
       </Switch>
     </div>
