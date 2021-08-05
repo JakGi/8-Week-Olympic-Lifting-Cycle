@@ -37,6 +37,8 @@ export default function SimpleMenu() {
         anchorEl={anchorEl}
         keepMounted
         open={Boolean(anchorEl)}
+        anchorOrigin={{ vertical: "bottom", horizontal: "center" }}
+        transformOrigin={{ vertical: "top", horizontal: "center" }}
         onClose={handleClose}
       >
         <Link to="/Week1">
