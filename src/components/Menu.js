@@ -6,6 +6,11 @@ import { BrowserRouter as Route, Switch, Link } from "react-router-dom";
 import Week1 from "./Week1";
 import Week2 from "./Week2";
 import Week3 from "./Week3";
+import Week4 from "./Week4";
+import Week5 from "./Week5";
+import Week6 from "./Week6";
+import Week7 from "./Week7";
+import Week8 from "./Week8";
 
 export default function SimpleMenu() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -43,6 +48,21 @@ export default function SimpleMenu() {
         <Link to="/Week3">
           <MenuItem onClick={handleClose}>Week-3</MenuItem>
         </Link>
+        <Link to="/Week4">
+          <MenuItem onClick={handleClose}>Week-4</MenuItem>
+        </Link>
+        <Link to="/Week5">
+          <MenuItem onClick={handleClose}>Week-5</MenuItem>
+        </Link>
+        <Link to="/Week6">
+          <MenuItem onClick={handleClose}>Week-6</MenuItem>
+        </Link>
+        <Link to="/Week7">
+          <MenuItem onClick={handleClose}>Week-7</MenuItem>
+        </Link>
+        <Link to="/Week8">
+          <MenuItem onClick={handleClose}>Week-8</MenuItem>
+        </Link>
       </Menu>
 
       <Switch>
@@ -54,6 +74,21 @@ export default function SimpleMenu() {
         </Route>
         <Route path="/Week3">
           <Week3 />
+        </Route>
+        <Route path="/Week4">
+          <Week4 />
+        </Route>
+        <Route path="/Week5">
+          <Week5 />
+        </Route>
+        <Route path="/Week6">
+          <Week6 />
+        </Route>
+        <Route path="/Week7">
+          <Week7 />
+        </Route>
+        <Route path="/Week8">
+          <Week8 />
         </Route>
       </Switch>
     </div>
