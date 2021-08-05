@@ -7,11 +7,13 @@ const MainText = styled.p `
     border-top: 1px solid black;
 `
 const ListText = styled.li ` 
-    margin-top: 30px;
+    list-style-type: none;
+    padding: 30px;
 `
 const Notes = styled.p ` 
 color: red;
-border-top: 1px solid black;
+font-size: 1.6rem;
+
 `
 
 const MainPage = () => {
@@ -23,7 +25,7 @@ const MainPage = () => {
         snatch and clean & jerk.
       </MainText>
       <Notes>NOTES</Notes>
-      <ul>
+      <div>
         <ListText>
           Conditioning work conducted during scheduled Strangth & Conditioning
           WODs.
@@ -32,7 +34,7 @@ const MainPage = () => {
           Your 1RMs are likely not accurate, and you may have to adjust the
           prescribed weights up if they feel too easy
         </ListText>
-      </ul>
+      </div>
     </div>
   );
 };
