@@ -32,7 +32,8 @@ const Week1 = () => {
       <div>
         <DaysStyle>Friday</DaysStyle>
         <Exercise>
-        3-Position Clean (ground, below knee, above knee) + Jerk 60%, 65%, 70% x 4 sets
+          3-Position Clean (ground, below knee, above knee) + Jerk 60%, 65%, 70%
+          x 4 sets
         </Exercise>
         <Exercise>Clean Pull 90% (of cln) x 3 x 2, 95% x 3 x 2</Exercise>
         <Exercise>Front Squat 70% x 3 x 5</Exercise>
@@ -40,14 +41,13 @@ const Week1 = () => {
       </div>
       <div>
         <DaysStyle>Sunday</DaysStyle>
+        <Exercise>Snatch 60% x 2, 70% x 2, 80% x 2, heavy single</Exercise>
         <Exercise>
-        Snatch 60% x 2, 70% x 2, 80% x 2, heavy single
+          Clean & Jerk 60% x 2+1, 70% x 2+1, 80% x 2+1, heavy single
         </Exercise>
-        <Exercise>Clean & Jerk 60% x 2+1, 70% x 2+1, 80% x 2+1, heavy single</Exercise>
         <Exercise>Back Squat 75% x 3 x 5</Exercise>
         <Exercise>Stiff-legged Deadlift 3 x 5</Exercise>
       </div>
-      
     </div>
   );
 };
