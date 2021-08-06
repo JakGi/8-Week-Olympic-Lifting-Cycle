@@ -6,6 +6,7 @@ const Week1 = () => {
   return (
     <div>
       <div>
+        <p>For all exercises this week, if the prescribed weights feel good, you can increase weights on your final sets.</p>
         <DaysStyle>Monday</DaysStyle>
         <Exercise>
           3-Position Snatch (ground, below knee, above knee) 60%, 65%, 70% x 4

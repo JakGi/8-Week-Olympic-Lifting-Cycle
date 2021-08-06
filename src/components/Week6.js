@@ -6,6 +6,7 @@ const Week6 = () => {
   return (
     <div>
       <div>
+        <p>Take up the weight in the last sets if you’re feeling good. Don’t push to max.</p>
         <DaysStyle>Monday</DaysStyle>
         <Exercise>
         Snatch 60% x 3, 65% x 3, 70% x 2, 75% x 2, 80% x 2 x 3

@@ -6,9 +6,8 @@ const Title = () => {
   return (
     <div>
       <Link to="/">
-      <TitlePage>EliteFit 8-Week Olympic Lifting Cycle</TitlePage>
+        <TitlePage>8-Week Olympic Lifting Cycle</TitlePage>
       </Link>
-     
     </div>
   );
 };
