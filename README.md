@@ -5,3 +5,4 @@ This is an 8-week cycle using 3-position snatches and cleans, power snatches and
 
 
 
+
