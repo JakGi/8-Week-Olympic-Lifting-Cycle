@@ -4,7 +4,7 @@ App made for mobile users
 <br>
 <br>
 <br>
-![ScreenShot](public\ss.png "Optional Title")
+![alt text](https://github.com/JakGi/8-Week-Olympic-Lifting-Cycle/blob/main/public/ss.png?raw=true)
 <br>
 <br>
 <br>
