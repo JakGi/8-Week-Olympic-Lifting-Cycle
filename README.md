@@ -4,7 +4,7 @@ App made for mobile users
 <br>
 <br>
 <br>
-![Alt text](public\ss.png "Optional Title")
+![ScreenShot](public\ss.png "Optional Title")
 <br>
 <br>
 <br>
